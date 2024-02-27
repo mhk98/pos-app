@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const productCartApi = createApi({
   reducerPath: "productCartApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api/v1/",
+    baseUrl: "https://pos-backend-lgrj.onrender.com/api/v1/",
   }),
 
   tagTypes: ["carts"], // Define the tag type
