@@ -1,0 +1,51 @@
+.cart{
+    color: #84919C;
+    border: 1px solid #E4E6E9;
+}
+
+.icon-btn{
+    color: #84919C;
+    border: none;
+}
+
+.total{
+ color: #3674D9;
+ background-color: #E1EAF9;   
+}
+
+.total-order{
+    font-size: 15px;
+    font-weight: 700;
+}
+.user-action1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #E55C57;
+    background-color: #FADEDD;
+}
+
+.user-action2{
+    font-size: 15px;
+    font-weight: 700;
+    color: #5C6AC4;
+    background-color: #DEE1F3;
+}
+
+.user-action3{
+    font-size: 15px;
+    font-weight: 700;
+    color: #5C6AC4;
+    background-color: #DEE1F3;
+    
+}
+
+.user-action4{
+    font-size: 15px;
+    font-weight: 700;
+    color: #3674D9;
+    background-color: #D7E3F7;
+}
+
+
+
+

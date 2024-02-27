@@ -1,0 +1,58 @@
+.space {
+  margin-right: 20px;
+}
+
+.menu {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.canvas {
+  width: 600px;
+  height: 1000px;
+}
+
+#offcanvasRight {
+  margin-top: 10px;
+}
+
+.search {
+  font-size: 25px;
+  margin-right: 15px;
+  color: #6a6a6a;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.form-control {
+  border: none;
+  outline: none;
+}
+
+.category {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .category {
+    font-size: 10px;
+  }
+  .menu {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+}

@@ -1,0 +1,63 @@
+.users-container {
+  margin: 0px 10px;
+  margin-top: 20px;
+}
+.users {
+  font-size: 20px;
+}
+
+.user-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef0f9;
+  padding: 5px;
+}
+.user {
+  background-color: #eef0f9;
+  color: #5c6ac4;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.modal-body {
+  height: 400px;
+}
+
+.modal-content {
+  width: 450px;
+}
+
+.form-control {
+  outline: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+.text-primary {
+  font-size: 16px;
+  font-weight: 700;
+  /* margin-right: 60px; */
+  text-align: left;
+}
+
+.form-btn {
+  font-weight: 700;
+}
+
+/* Add this CSS to your stylesheet */
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 16px; /* Adjust the font size as needed */
+}

@@ -1,0 +1,78 @@
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.headers {
+  background-color: #e7e9f6;
+  color: #5c6ac4;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .headers {
+    background-color: #e7e9f6;
+    color: #5c6ac4;
+    font-size: 12px;
+  }
+  .header-cont {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .headers {
+    background-color: #e7e9f6;
+    color: #5c6ac4;
+    font-size: 12px;
+  }
+  .header-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+  }
+}
+.dropsection {
+  background-color: #efefef;
+}
+
+.btn-color {
+  color: #87949e;
+}
+
+.location-btn {
+  color: #5c6ac4;
+  background-color: #eef0f9;
+}
+
+button.active {
+  background-color: #ebf1fb; /* Change to your desired active color */
+  color: black; /* Change to your desired active text color */
+  border-bottom: 2px solid #007bff;
+}
+
+button {
+  border-bottom: 2px solid transparent; /* Set default border bottom to transparent */
+  background-color: #f7f8f9;
+  padding: 0px 40px;
+}
+
+.button1 {
+  font-size: 50px;
+}
+.button2 {
+  font-size: 50px;
+}
+
+/* Increase font size for radio buttons and their labels */
+input[type="radio"] {
+  font-size: 40px; /* Adjust font size as needed */
+}
+
+label {
+  font-size: 20px; /* Adjust font size as needed */
+  margin-left: 20px;
+}
