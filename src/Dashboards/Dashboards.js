@@ -63,7 +63,8 @@ const Dashboards = () => {
                 <h3 id="offcanvasRightLabel">Categories</h3>
                 <button
                   type="button"
-                  class="btn-close text-reset text-white position-absolute top-0 start-0"
+                  class="btn-close text-reset me-2 position-absolute top-0  end-100"
+                  style={{ fontSize: "25px", color: "#FFFFFF" }}
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
                 ></button>

@@ -16,8 +16,8 @@ function App() {
           <Route path="/" element={<Dashboards></Dashboards>}></Route>
           {/* <Route path='/cart' element={<Cart></Cart>}></Route> */}
         </Routes>
+        <ToastContainer />
       </Provider>
-      <ToastContainer />
     </div>
   );
 }
